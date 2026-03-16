@@ -1,14 +1,15 @@
-primary_name: "Yi Wang"
-secondary_name: ""
-navbar_name: "Yi Wang"
+primary_name: "Ziyan"
+secondary_name: "Liang"
+navbar_name: "Ziyan Liang"
 
 positions:
  #logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-- name: I was born in Guangdong-Hong Kong-Macau Greater Bay Area in China. I mainly focus on `Reinforcement Learning`, `Computer Vision` and `Robotics'. I serve as a reviewer of ICLR 2026 and so on.
-- name: I support girls in AI
+ - name: Cantonese, Chinese.
+# - name: I was born in Guangdong-Hong Kong-Macau Greater Bay Area in China. I mainly focus on `Reinforcement Learning`, `Computer Vision` and `Robotics'. I serve as a reviewer of ICLR 2026 and so on.
+# - name: I support girls in AI
 
 
-email: "wangy2356@mail2.sysu.edu.cn"
+email: "liangzysysu@163.com"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 # github: your_github_id
@@ -27,20 +28,20 @@ short_bio_text_justify: false
   #  My name is Ningze Zhong and I am an undergrad student.
   #</p>
 
-portrait_url: assets/images/photos/微信图片_20250417225014.jpg
+portrait_url: assets/images/photos/profile.jpg
 # portrait_caption: >-
   # Photo by My Father in Hongkong.
 
 education:
-- name: Sun Yat-sen University
-  logo: /assets/images/badges/sysu.jpg
-  position: Ph.D candidate (Supervised by Prof. Yulan Guo)
-  date: Sep. 2025 - 
+# - name: Sun Yat-sen University
+#   logo: /assets/images/badges/sysu.jpg
+#   position: Ph.D candidate (Supervised by Prof. Yulan Guo)
+#   date: Sep. 2025 - 
   
 - name: Sun Yat-sen University
   logo: /assets/images/badges/sysu.jpg
-  position: B.Eng (Supervised by Prof. Yulan Guo)
-  date: Sep. 2021 - Jul. 2025
+  position: B.Eng (Supervised by Prof. Qing Gao)
+  date: Sep. 2022 - Jul. 2026
 
 # experience:
 # - name: Shenzhen Innox Academy
@@ -51,11 +52,11 @@ education:
 
 
 awards:
-- name: President's Scholarship
-  date: 2025 - 2026
-- name: Academic Paper Track, National Undergraduate Innovation Annul Meeting
-  date: 2024
-- name: National Scholarship, China
-  date: 2024
-- name: Academic Excellence Scholarship, First Prize, SYSU
-  date: 2023, 2024
+# - name: President's Scholarship
+#   date: 2025 - 2026
+# - name: Academic Paper Track, National Undergraduate Innovation Annul Meeting
+#   date: 2024
+# - name: National Scholarship, China
+#   date: 2024
+- name: Academic Excellence Scholarship, Third Prize, SYSU
+  date: 2022-2023
