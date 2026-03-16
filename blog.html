@@ -1,0 +1,36 @@
+---
+layout: default
+title : Blog
+navbar_title: Blog
+---
+
+{% assign posts = site.posts | sort: "date" | reverse %}
+
+<div class="row">
+  <div class="col-12 col-lg-10">
+    <h2 class="pt-4">Blog</h2>
+    <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+      {% if posts.size == 0 %}
+        <div class="p-4">No posts yet.</div>
+      {% else %}
+        {% for post in posts %}
+          <div class="p-4 {% unless forloop.last %}border-bottom{% endunless %}">
+            <div class="d-flex align-items-baseline">
+              <a href="{{ post.url | relative_url }}" class="text-body font-weight-bold">
+                {{ post.title }}
+              </a>
+              <div class="ml-auto text-muted small">
+                {{ post.date | date: "%Y-%m-%d" }}
+              </div>
+            </div>
+            {% if post.excerpt %}
+              <div class="text-muted mt-2">
+                {{ post.excerpt | strip_html | truncate: 180 }}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
