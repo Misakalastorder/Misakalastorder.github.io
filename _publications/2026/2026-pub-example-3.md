@@ -1,6 +1,6 @@
 ---
 title:          "Tangram-Splatting: Optimizing 3D Gaussian Splatting Through Tangram-inspired Shape Priors"
-date:           2024-11-25 00:01:00 +0800
+date:           2026-11-25 00:01:00 +0800
 selected:       true
 pub:            "ACM Multimedia 2024 (ACM MM)"
 # pub_pre:        "Submitted to "
