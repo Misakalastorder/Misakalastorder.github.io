@@ -46,5 +46,37 @@
     </script>
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
+
+
+<!-- 引入 Pretext 库 -->
+<!-- <script type="module" src="{{ '/assets/js/pretext.js' | relative_url }}"></script> -->
+
+<!-- 编写你的测试脚本 -->
+<script type="module">
+  // 由于使用了 type="module"，我们需要从文件导入
+//   import { prepare, layout } from "{{ '/assets/js/pretext.js' | relative_url }}";
+  import { prepare, layout } from "https://unpkg.com/@chenglou/pretext/dist/layout.js";
+
+  // 添加这行来确认脚本确实加载了
+  console.log("Pretext 模块已加载，开始执行测试...");
+
+  const text = "你好 Pretext! 这是一个在 Jekyll 中的本地测试。";
+  const font = "16px Raleway"; 
+
+  try {
+    const prepared = prepare(text, font);
+    const { height, lineCount } = layout(prepared, 200, 24);
+    
+    // 使用 alert 弹窗作为最直接的反馈（如果 Console 还是看不见的话）
+    // alert(`测试成功！高度: ${height}px`);
+
+    console.log("%c Pretext 测试成功! ", "background: #222; color: #bada55");
+    console.log(`文本: "${text}"`);
+    console.log(`测量结果: 高度 ${height}px, 行数 ${lineCount}`);
+  } catch (e) {
+    console.error("Pretext 测试执行出错:", e);
+  }
+</script>
+
 </body>
 </html>
