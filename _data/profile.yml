@@ -4,7 +4,7 @@ navbar_name: "Ziyan Liang"
 
 positions:
  #logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
- - name: Cantonese, Chinese.
+ - name: Cantonese, Chinese. 
 # - name: I was born in Guangdong-Hong Kong-Macau Greater Bay Area in China. I mainly focus on `Reinforcement Learning`, `Computer Vision` and `Robotics'. I serve as a reviewer of ICLR 2026 and so on.
 # - name: I support girls in AI
 
@@ -12,7 +12,7 @@ positions:
 email: "liangzysysu@163.com"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: Misakalastorder
+github: ZaynLeung
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -20,13 +20,39 @@ github: Misakalastorder
 linkedin: 子彦-梁-63aab528a
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: False
+short_bio_text_justify: True
   # <p>
   #  A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
   # </p>
-  # <p>
-  #  My name is Ningze Zhong and I am an undergrad student.
-  # </p>
+short_bio: >
+  <p>
+   I am an undergraduate student at Sun Yat-sen University, 
+  graduating in June 2026. My undergraduate major is Electronic Information Science and 
+  Technology. From around May 2025 to the present, 
+  I have been conducting research in the SAIL Laboratory 
+  under the guidance of Associate Prof. Gao Qing. 
+  From June to August 2025, I collaborated with a 
+  graduate student to complete a project, which was 
+  transformed into a paper and accepted by ICRA2026. 
+  This work mainly built a low-latency, high-precision dual-arm teleoperation system. 
+  The system mainly consists of a retargeting module and a force control module. 
+  I was primarily responsible for the code writing and overall hardware debugging 
+  of the retargeting module. From January to February 2026, under the guidance of 
+  my supervisor, I independently conducted a project to build a human-machine 
+  hand redirection method based on spatiotemporal feature fusion. 
+  This work was submitted to IROS2026 and is currently under review. 
+  This work primarily constructed a Transformer-based spatiotemporal encoder network 
+  to extract spatiotemporal features from human hand motion sequences. 
+  These features were then applied to dexterous hand redirection, 
+  improving the fluency and stability of the redirection results and 
+  reducing the dependence on input data quality. From March to April, 
+  I began writing my dissertation, which is an extension of my work submitted to IROS2026, 
+  incorporating reinforcement learning-based interaction strategies. From April to the present, 
+  I have been assisting a PhD student with an ongoing project on improving offline target reinforcement 
+  learning algorithms for multi-agent systems. My current interests lie in humanoid robot redirection, human-demonstrated skill transfer, motion control, 
+  and interaction, particularly related to dexterous hands. I am also interested in multi-agent reinforcement learning and building multi-agent systems, 
+  especially in embodied AI area. I look forward to exchanging ideas with everyone.
+  </p>
 
 portrait_url: assets/images/photos/profile.jpg
 # portrait_caption: >-
