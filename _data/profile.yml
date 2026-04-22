@@ -24,32 +24,33 @@ short_bio_text_justify: True
   # <p>
   #  A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
   # </p>
+  # https://jimmyqing.github.io/
 short_bio: >
   <p>
    I am an undergraduate student at Sun Yat-sen University, 
   graduating in June 2026. My undergraduate major is Electronic Information Science and 
   Technology. From around May 2025 to the present, 
-  I have been conducting research in the SAIL Laboratory 
-  under the guidance of Associate Prof. Gao Qing. 
+  I have been conducting research in the <a href="https://sysu-sail.net/#/"> SAIL </a>laboratory
+  under the guidance of <a href="https://jimmyqing.github.io/">Associate Prof. Gao Qing</a>. 
   From June to August 2025, I collaborated with a 
   graduate student to complete a project, which was 
-  transformed into a paper and accepted by ICRA2026. 
+  transformed into <a href="https://3469627147abc.github.io/DexTele/" target="_blank">a paper and accepted by ICRA2026</a>. 
   This work mainly built a low-latency, high-precision dual-arm teleoperation system. 
   The system mainly consists of a retargeting module and a force control module. 
   I was primarily responsible for the code writing and overall hardware debugging 
   of the retargeting module. From January to February 2026, under the guidance of 
   my supervisor, I independently conducted a project to build a human-machine 
-  hand redirection method based on spatiotemporal feature fusion. 
-  This work was submitted to IROS2026 and is currently under review. 
-  This work primarily constructed a Transformer-based spatiotemporal encoder network 
+  <a href="https://github.com/ZaynLeung/TransRetargetv1" target="_blank">hand retargeting method</a> based on spatial-temporal feature fusion. 
+  And this work was submitted to IROS2026 and is currently under review. 
+  This work primarily constructed a Transformer-based spatial-temporal encoder network 
   to extract spatiotemporal features from human hand motion sequences. 
-  These features were then applied to dexterous hand redirection, 
-  improving the fluency and stability of the redirection results and 
+  These features were then applied to dexterous hand retargeting, 
+  improving the fluency and stability of the retargeting results and 
   reducing the dependence on input data quality. From March to April, 
-  I began writing my dissertation, which is an extension of my work submitted to IROS2026, 
+  I began writing my graduation thesis, which is an extension of my work submitted to IROS2026, 
   incorporating reinforcement learning-based interaction strategies. From April to the present, 
-  I have been assisting a PhD student with an ongoing project on improving offline target reinforcement 
-  learning algorithms for multi-agent systems. My current interests lie in humanoid robot redirection, human-demonstrated skill transfer, motion control, 
+  I have been assisting a PhD student with an ongoing project on improving <a href="https://github.com/WendyeeWang/MangoBench" target="_blank">offline goal-conditioned reinforcement
+  learning algorithms</a>  for multi-agent systems. My current interests focus on humanoid robot retargeting, human-demonstrated skill transfer, motion control, 
   and interaction, particularly related to dexterous hands. I am also interested in multi-agent reinforcement learning and building multi-agent systems, 
   especially in embodied AI area. I look forward to exchanging ideas with everyone.
   </p>
@@ -89,5 +90,5 @@ awards:
 #   date: 2024
 # - name: National Scholarship, China
 #   date: 2024
-- name: Academic Excellence Scholarship, Third Prize, SYSU
-  date: 2022-2023
+# - name: Academic Excellence Scholarship, Third Prize, SYSU
+  # date: 2022-2023
